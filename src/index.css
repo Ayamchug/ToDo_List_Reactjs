@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 35rem;
+  margin-top: 8rem;
+  background: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  padding: 2rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.hov:hover {
+  background-color:rgb(64, 199, 64);
+}
+
+.color {
+  background-color: antiquewhite;
+}
+
+.delete-btn {
+  background: transparent;
+  border-color: transparent;
+  font-size: 1rem;
+  margin: 0 0.1rem;
+  cursor: pointer;
+  color: darkred;
+}
+
+.colour {
+  color:rgb(7, 236, 121);
+}
+
+.ho {
+  color: white;
+}
+
+.ho:hover {
+  background-color: rgb(190, 86, 65);
+  color: white;
+}
+
+.alert {
+  background-color: white;
+}
